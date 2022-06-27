@@ -97,7 +97,6 @@ void RoomTagger(Rooms[,] tagRooms, Rooms RoomType, Random Diceroll)
         (int RowRng1, int RowRng2, int ColRng1, int ColRng2, int Multiple) Settings = SetBoardRnds(tagRooms, RoomType);
         for (int i = 0; i < Settings.Multiple; i++)
         {
-
             do
             {
                 row = Diceroll.Next(Settings.RowRng1, Settings.RowRng2);
